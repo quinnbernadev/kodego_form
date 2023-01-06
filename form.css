@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-size: 1rem;
+  font-family: "Poppins";
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  overflow-x: hidden;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);  
+  display: grid;
+  place-content: center;
+  
+}
+
+form {
+  
+  padding: 1rem;
+  margin-block: 1rem;
+  width: 600px;
+
+background: rgba(255, 255, 255, 0.445);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.9px);
+-webkit-backdrop-filter: blur(9.9px);
+border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+form>h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+form p{
+  font-size: 14px;
+color: rgb(83, 83, 83);
+}
+
+
+hr {
+  border-top: 1px solid coral;
+}
+
+form .input-box{
+  margin-block: 1rem;
+}
+
+form .input-box > input:not([type="radio"]) {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: rgba(192, 214, 231, 0.685);
+  width: 100%;
+
+}
+
+form .input-box > ::placeholder{
+color: gray;
+font-size: 14px;
+}
+
+form .input-box > input:focus {
+  outline: 1px solid rgb(138, 166, 243);
+}
+
+
+
+form .input-box > label:not(.gender-label) {
+  display: block;
+  font-size: 0.9375rem;
+}
+
+
+
+.name  {
+  display: flex;
+  gap: 10px;
+}
+
+.name > .input-box {
+  flex: 1;
+}
+
+.birthday-gender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.birthday-gender > .input-box:first-child{
+  flex: 1;
+}
+
+form .select-box{
+margin-block: 1rem; 
+
+}
+
+form .select-box > select{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: rgba(192, 214, 231, 0.685);
+  width: 100%;
+}
+form .select-box > select:focus{
+  outline:1px solid rgb(138, 166, 243)
+}
+  
+.yrandcourse{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.yrandcourse > .select-box:last-child{
+  flex: 1;
+}
+
+.input-box-radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+  padding-inline: 10px;
+}
+
+.other {
+  padding: 5px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.other:focus{
+  outline: 0;
+}
+
+.accInfo h2{
+margin-top: 15px;
+}
+
+
+.accInfo p{
+font-size: 14px;
+color: rgb(83, 83, 83);
+}
+
+#agreement-label{
+  font-size: 12px;
+}
+
+
+.btn{ 
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  margin-left: 25%;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(16, 169, 180);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 50%;
+  align-items: center;
+  cursor: pointer;
+  }
+
+  .btn:hover{
+    background-color: rgba(16, 169, 180, 0.644);;
+
+}
+
